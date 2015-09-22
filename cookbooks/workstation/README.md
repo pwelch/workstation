@@ -1,0 +1,3 @@
+# workstation
+
+Configures workstation/laptop.
