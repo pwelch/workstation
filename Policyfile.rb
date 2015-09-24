@@ -11,12 +11,14 @@ default_source :community
 ## Run List
 run_list(
   'pantry',
-  'workstation::mac_os_x'
+  'workstation::mac_os_x',
+  'audit-osx'
 )
 
 # Add `cookbook` entries for cookbooks that are not found on
 # supermarket. See the POLICYFILE_README.md for more information.
-cookbook 'workstation', :path => 'cookbooks/workstation'
+cookbook 'workstation', path: 'cookbooks/workstation'
+cookbook 'audit-osx', github: 'pwelch/chef-audit-osx'
 
 ## Attributes
 # packages for OS X
