@@ -17,7 +17,7 @@ default[:workstation][:misc]      = %w(
 default[:workstation][:games]    = %w(vitetris)
 default[:workstation][:casks]    = %w(
   adium alfred cloak dropbox gpgtools
-  grabbox handbrake iterm2 launchrocket licecap
+  grabbox handbrake iterm2 launchrocket licecap macdown
   mysqlworkbench screenhero skype spotify xquartz vlc wireshark zterm
 )
 default[:workstation][:install_casks] = true
