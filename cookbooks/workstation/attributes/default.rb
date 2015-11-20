@@ -4,7 +4,7 @@
 #
 
 default[:workstation][:languages] = %w(go elixir erlang python rust node rebar)
-default[:workstation][:devops]    = %w(ansible packer terraform)
+default[:workstation][:devops]    = %w(awscli ansible packer terraform)
 default[:workstation][:infosec]   = %w(chkrootkit yara nmap)
 default[:workstation][:tools]     = %w(
   ack curl git the_silver_searcher wget htop-osx httpie iperf jq jrnl
