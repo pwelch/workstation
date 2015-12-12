@@ -14,7 +14,7 @@ default[:workstation][:tools]     = %w(
 default[:workstation][:misc]      = %w(
   ghostscript gnuplot graphviz imagemagick phantomjs pidof
 )
-default[:workstation][:games]    = %w(vitetris)
+default[:workstation][:games]    = %w(vitetris nethack)
 default[:workstation][:casks]    = %w(
   adium alfred cloak dropbox gpgtools
   grabbox handbrake iterm2 launchrocket licecap macdown
