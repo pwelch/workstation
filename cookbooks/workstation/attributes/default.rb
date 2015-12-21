@@ -12,7 +12,7 @@ default[:workstation][:tools]     = %w(
   pass reattach-to-user-namespace
 )
 default[:workstation][:misc]      = %w(
-  ghostscript gnuplot graphviz imagemagick phantomjs pidof
+  ghostscript gnuplot graphviz imagemagick phantomjs pidof irssi
 )
 default[:workstation][:games]    = %w(vitetris nethack)
 default[:workstation][:casks]    = %w(
