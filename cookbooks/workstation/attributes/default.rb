@@ -18,10 +18,11 @@ default[:workstation][:games]    = %w(vitetris nethack)
 default[:workstation][:casks]    = %w(
   adium alfred cloak dropbox gpgtools
   grabbox handbrake iterm2 launchrocket licecap macdown
-  mysqlworkbench screenhero skype spotify xquartz vlc wireshark zterm
+  mysqlworkbench screenhero skype spotify xquartz vlc zterm
   openemu
 )
 default[:workstation][:install_casks] = true
 
 ## Removed
 # bartender
+# wireshark

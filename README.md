@@ -26,3 +26,12 @@ chef update
 chef export --force zero-repo
 sudo chef-client -z
 ```
+
+### Issues
+
+Need to fix the bootstrap script. If `$HOME/.chefdk` is owned by root, the permissions need to be fixed or chef will not work. `sudo chown -R $USER $HOME/.chefdk/`
+
+Fixes for OS X 10.11
+- https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/El_Capitan_and_Homebrew.md
+- sudo chown -R $(whoami):admin /usr/local
+- sudo chown -R $USER /Library/Caches/Homebrew/
