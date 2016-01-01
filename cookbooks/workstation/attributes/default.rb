@@ -9,7 +9,7 @@ default[:workstation][:infosec]   = %w(chkrootkit yara nmap zmap)
 default[:workstation][:tools]     = %w(
   ack curl git the_silver_searcher wget htop-osx httpie iperf jq jrnl
   mtr openssl siege sl sqlite ssh-copy-id tmux tree watch youtube-dl
-  pass reattach-to-user-namespace
+  pass reattach-to-user-namespace newsbeuter links
 )
 default[:workstation][:misc]      = %w(
   ghostscript gnuplot graphviz imagemagick phantomjs pidof irssi
